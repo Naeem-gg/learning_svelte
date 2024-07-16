@@ -2,9 +2,11 @@
     let count = 0;
     $: doubleCount = count * 2
 
-    $:{
-        console.log(count)
-        console.log(doubleCount)
+    $:if(count >=10){
+        // console.log(count)
+        // console.log(doubleCount)
+        alert(count)
+        count = 0
     }
     // let string = false
     // let message = "count cannot be negative"
