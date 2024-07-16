@@ -1,5 +1,5 @@
 <script>
-	import Events from "../components/Events.svelte";
-	</script>
+	import EventModifiers from "../components/EventModifiers.svelte";
+		</script>
 
-<Events/>
+<EventModifiers/>
