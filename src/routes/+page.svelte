@@ -1,9 +1,11 @@
 <script>
-    import HtmlString from "../components/HtmlString.svelte";
+	import Counter from "../components/Counter.svelte";
+
+   
 </script>
 
 
 <div>
 
-    <HtmlString/>
+    <Counter/>
 </div>
