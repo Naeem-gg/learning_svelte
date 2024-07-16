@@ -1,6 +1,5 @@
 <script>
-	import LoopingComponent from "../components/LoopingComponent.svelte";
-</script>
+	import AsyncAwait from "../components/AsyncAwait.svelte";
+	</script>
 
-
-    <LoopingComponent/>
+<AsyncAwait/>
