@@ -1,11 +1,11 @@
 <script>
-	import Counter from "../components/Counter.svelte";
-
+	import Arrays from "../components/Arrays.svelte";
+	
    
 </script>
 
 
 <div>
 
-    <Counter/>
+    <Arrays numbers={[1,2,3,4]}/>
 </div>
