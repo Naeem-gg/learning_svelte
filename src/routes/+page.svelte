@@ -1,6 +1,9 @@
+<script>
+    let name = "Naeem Navjivan"
+</script>
 
+<div class="w-full h-[100vh] flex justify-center items-center">
+    <h1 class="text-3xl">Greetings <span class="font-bold">{name.toUpperCase()}</span>!</h1>
 
-
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+</div>
 
