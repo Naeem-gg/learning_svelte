@@ -1,5 +1,5 @@
 <script>
-	import AsyncAwait from "../components/AsyncAwait.svelte";
+	import Events from "../components/Events.svelte";
 	</script>
 
-<AsyncAwait/>
+<Events/>
