@@ -1,7 +1,5 @@
 <script lang="ts">
-	import RangeNumericInput from "../components/Range&NumericInput.svelte";
-
-	
+	import Checkbox from '../components/Checkbox.svelte';
 </script>
 
-<RangeNumericInput/>
+<Checkbox />

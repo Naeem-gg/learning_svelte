@@ -14,7 +14,8 @@
 		"migrate": "drizzle-kit migrate",
 		"push": "drizzle-kit push",
 		"pull": "drizzle-kit introspect",
-		"code:push": "git add . && git commit && git push origin main"
+		"code:push": "git add . && git commit && git push origin main",
+		"pretty": "prettier . -w"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
