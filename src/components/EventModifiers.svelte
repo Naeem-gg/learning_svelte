@@ -1,9 +1,7 @@
 <script>
-    function triggerAlert(){
-        alert("clicked")
-    }
+	function triggerAlert() {
+		alert('clicked');
+	}
 </script>
 
-<div on:click|once={triggerAlert}>
-    Click me
-</div>
+<button type="button" on:click|once={triggerAlert}> Click me </button>

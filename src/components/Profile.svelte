@@ -1,9 +1,5 @@
 <script>
-    let name = "Naeem Navjivan"
+	// let name = 'Naeem Navjivan';
 </script>
 
-
-<div>
-    Hello User!
-</div>
-
+<div>Hello User!</div>
