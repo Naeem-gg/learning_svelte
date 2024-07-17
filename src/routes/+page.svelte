@@ -1,6 +1,7 @@
 <script lang="ts">
-	import Input from "../components/Input.svelte";
+	import RangeNumericInput from "../components/Range&NumericInput.svelte";
 
+	
 </script>
 
-<Input/>
+<RangeNumericInput/>
