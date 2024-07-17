@@ -1,5 +1,8 @@
 <script>
-	import EventModifiers from '../components/EventModifiers.svelte';
-</script>
+	import DispatchEvent from '../components/DispatchEvent.svelte';
+	function calculate(){
+		alert("The button inside DispatchEvent Component is clicked")
+	}
+	</script>
 
-<EventModifiers />
+<DispatchEvent on:naeem={calculate}/>
