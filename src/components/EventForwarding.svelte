@@ -1,7 +1,5 @@
 <script>
-	import DispatchEvent from "./DispatchEvent.svelte";
-
-
+	import DispatchEvent from './DispatchEvent.svelte';
 </script>
 
-<DispatchEvent on:naeem/>
+<DispatchEvent on:naeem />
