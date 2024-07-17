@@ -1,8 +1,10 @@
-<script>
-	import DispatchEvent from '../components/DispatchEvent.svelte';
-	function calculate(){
+<script lang="ts">
+	import EventForwarding from '../components/EventForwarding.svelte';
+	function calculate(e){
 		alert("The button inside DispatchEvent Component is clicked")
+		alert(e.detail.text)
+		console.log(e)
 	}
 	</script>
 
-<DispatchEvent on:naeem={calculate}/>
+<EventForwarding on:naeem={calculate}/>

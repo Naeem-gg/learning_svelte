@@ -13,7 +13,8 @@
 		"generate": "drizzle-kit generate",
 		"migrate": "drizzle-kit migrate",
 		"push": "drizzle-kit push",
-		"pull": "drizzle-kit introspect"
+		"pull": "drizzle-kit introspect",
+		"code:push":"git push origin main"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
