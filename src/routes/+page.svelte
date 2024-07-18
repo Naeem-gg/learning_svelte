@@ -1,5 +1,10 @@
 <script lang="ts">
-	import FadeTransition from '../components/FadeTransition.svelte';
+	import Slots from '../components/Slots.svelte';
 </script>
 
-<FadeTransition />
+<Slots>
+	<p>Hello this is written!!</p>
+	<p>Ola meguire!!</p>
+</Slots>
+
+<Slots></Slots>
