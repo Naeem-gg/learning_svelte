@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ReadableStore from '../components/ReadableStore.svelte';
+	import FadeTransition from '../components/FadeTransition.svelte';
 </script>
 
-<ReadableStore />
+<FadeTransition />
