@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CountStore from '../components/CountStore.svelte';
+	import ReadableStore from '../components/ReadableStore.svelte';
 </script>
 
-<CountStore />
+<ReadableStore />
